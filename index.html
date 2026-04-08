@@ -111,7 +111,6 @@
         }
 
         .card:hover {
-            /* forwards заставляет остаться в конечном кадре анимации */
             animation: singleGlitch 0.3s ease-out forwards;
             border-color: var(--accent);
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(124, 77, 255, 0.2);
@@ -175,6 +174,11 @@
     </header>
 
     <div class="projects">
+        <a href="https://github.com/bocchisad/Cipher/tree/E2EE" class="card" target="_blank">
+            <h3>&lt;Cipher /&gt;</h3>
+            <p>Анонимный мессенджер с оконечным шифрованием (E2EE). Безопасная передача данных через WebSocket и локальное хранилище IndexedDB.</p>
+        </a>
+
         <a href="https://github.com/lifeqsoll/AI-Code-Reviewer" class="card" target="_blank">
             <h3>&lt;AI Code Reviewer /&gt;</h3>
             <p>Локальный аудит кода с помощью LLM. Интеллектуальный анализ качества кода прямо в консоли.</p>
